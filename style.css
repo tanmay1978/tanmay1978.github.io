@@ -1,0 +1,31 @@
+body {
+    background-color: #FFFFFF;
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 26px
+}
+
+.profile-mask {
+    background: #dedede;
+    width: 122px;
+    height: 122px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.profile-mask-img {
+    clip-path: circle(58px at center);
+}
+
+.profile-name {
+    text-align: center;
+    color: #3a3a3a;
+}
+
+.profile-title {
+    text-align: center;
+    font-size: 0.95rem;
+    color: #999;
+}
