@@ -4,6 +4,13 @@ body {
     line-height: 26px
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    
+}
+
 .profile-mask {
     background: #dedede;
     width: 122px;
@@ -29,3 +36,38 @@ body {
     font-size: 0.95rem;
     color: #999;
 }
+
+blockquote {
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 590px;
+}
+
+blockquote p {
+    float: left;
+    margin: 10px 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 52px;
+    color: #969696;
+}
+
+.fa-quote-left, .fa-quote-right {
+    color: #969696;
+    float: left;
+}
+
+.fa-quote-left {
+    margin-right: 20px;
+}
+
+.fa-quote-right {
+    margin-top: 80px;
+}
+
+.quote-author {
+    font-size: 14px;
+    float: right;
+}
+
