@@ -1,14 +1,34 @@
+
+html {
+    font-size: 62.5%;                           /* default pixel of browser = 16px * 62.5% = 10px; */
+}
+
+body,
+h1, h2, h3, h4, h5, h6,
+p,
+blockquote,
+pre,
+dl, dd,
+ol, ul,
+form, fieldset, legend,
+figure,
+table, th, td, caption,
+hr {
+    margin:  0;
+    padding: 0;
+}
+
 body {
     background-color: #FFFFFF;
-    font-family: Roboto, Arial, sans-serif;
-    line-height: 26px
+    font-family: Roboto, Arial, sans-serif;    
+    line-height: 26px;
 }
 
 hr {
     border: 0;
     height: 1px;
     background-color: #ccc;
-    
+    margin: 24px;
 }
 
 .profile-mask {
@@ -29,15 +49,51 @@ hr {
 .profile-name {
     text-align: center;
     color: #3a3a3a;
+    font-size: 1.8rem;
 }
 
 .profile-title {
     text-align: center;
-    font-size: 0.95rem;
+    font-size: 1.6rem;
     color: #999;
 }
 
-blockquote {
+.profile-intro-txt {
+    font-size: 2rem;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    color: #969696;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .profile-intro-txt {
+        max-width: 100%;
+    }
+}
+
+.titles {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    float: left;
+    width: 20%;
+    padding: 0 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.profile, .skills {
+    font-family: 'Manuale', serif;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    float: left;
+    width: 70%;
+    color: #333;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+/* blockquote {
     text-align: center;
     overflow: hidden;
     margin: 0 auto;
@@ -69,5 +125,5 @@ blockquote p {
 .quote-author {
     font-size: 12px;
     float: right;
-}
+} */
 
