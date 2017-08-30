@@ -1,6 +1,8 @@
 
 html {
     font-size: 62.5%;                           /* default pixel of browser = 16px * 62.5% = 10px; */
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
 }
 
 body,
@@ -20,8 +22,6 @@ hr {
 
 body {
     background-color: #FFFFFF;
-    font-family: Roboto, Arial, sans-serif;    
-    line-height: 26px;
 }
 
 hr {
@@ -29,6 +29,18 @@ hr {
     height: 1px;
     background-color: #ccc;
     margin: 24px;
+}
+
+p {
+    color: rgba(26, 26, 26, 0.75);
+}
+
+p strong {
+    color: #1a1a1a;
+}
+
+h2 {
+    font-size: 1.6rem;
 }
 
 .profile-mask {
@@ -48,14 +60,16 @@ hr {
 
 .profile-name {
     text-align: center;
-    color: #3a3a3a;
+    color: #1a1a1a;
     font-size: 1.8rem;
+    margin-bottom: 8px;
 }
 
 .profile-title {
     text-align: center;
     font-size: 1.6rem;
     color: #999;
+    margin-bottom: 16px;
 }
 
 .profile-intro-txt {
@@ -83,7 +97,6 @@ hr {
 }
 
 .profile, .skills {
-    font-family: 'Manuale', serif;
     font-size: 1.6rem;
     line-height: 2.4rem;
     float: left;
@@ -93,6 +106,10 @@ hr {
     padding-bottom: 20px;
     border-bottom: 1px solid #ccc;
 }
+
+
+
+
 /* blockquote {
     text-align: center;
     overflow: hidden;
